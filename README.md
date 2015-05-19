@@ -1,10 +1,11 @@
 # sparkmeetup
-This repository contains the content for the 1º Introduction Spark MeetUp.
+This repository contains the files for the 1st Introduction to Spark MeetUp.
 
-In this files you can find a PDF that contains the steps to learn-by-doing a simple application with Spark and Python or Scala.
-Also we included the files that are generated at the end of the hands-on. If you have a problem with one of the step, you can check these files to see how it's done.
+In this Meetup we explain some features about Spark and do some basic examples. In this repository we have uploaded all of the complete examples about the Meetup.
 
-To get tweets with the Tweepy library, or use the script TweetsHandsOn.py, you need obtain your Twitter API credentials and setting up in the config.py script.
+To execute the Spark script (SparkKMeansExample.py) you need to run spark-submit and pass the JSON file as a parameter. To facilite these example, we upload two diferents files with tweets, so you can use this files to test Spark.
+
+If you want to get the tweets by yourself, we provide the TweetsExample.py script. With this script, you only need to configure the config.py file and provide yout Twitter API credentials. Once you have all of this, you need to execute the following command to install Twepy library: ```python python setup.py install ``` and you can obtain the tweets.
 
 We are open to any improvement in any of the documents. You can create a pull-request and we discuss there about it.
 The authors of these documents are:
